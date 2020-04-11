@@ -6,4 +6,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/Login.feature")
 public class CucumberRunner {
+    public static void main(String[] args) {
+        System.out.println("hello word ");
+    }
 }
